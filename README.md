@@ -12,6 +12,10 @@ Conceptos básicos sobre cómo Python maneja la información, variables y operac
 
 Dominio de Listas, Tuplas, Conjuntos (Sets) y Diccionarios.
 
+### 3. [Control de Flujo](./Control_de_Flujo/)
+
+Condicionales `if/else`, bucles `for` y `while`, y lógica de control de programas.
+
 ---
 
 _Este repositorio se actualiza a medida que avanzo en mi aprendizaje._
