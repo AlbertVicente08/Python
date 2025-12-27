@@ -2,10 +2,58 @@
 
 En este módulo aprendo los cimientos de Python: cómo guardar información y qué tipos de datos existen.
 
-## 📚 Teoría y Ejemplos
+---
 
-- `tipo_de_datos.py`: Explicación de `int`, `float`, `str` y `bool`.
-- `variables.py`: Uso de variables y el concepto de tipado dinámico.
+## 📚 Teoría
+
+### 1. ¿Qué son las Variables?
+
+Las variables son "etiquetas" que le ponemos a los datos para poder guardarlos en la memoria de la computadora y usarlos después.
+
+```python
+# Creando variables
+mensaje = "Hola Mundo"  # Aquí la etiqueta es 'mensaje'
+edad = 25               # Aquí la etiqueta es 'edad'
+precio = 19.99          # Aquí la etiqueta es 'precio'
+```
+
+### 2. Tipos de Datos Fundamentales
+
+- **Int (Enteros):** Números sin decimales.
+  ```python
+  vidas = 3
+  anio = 2024
+  ```
+- **Float (Flotantes):** Números con parte decimal.
+  ```python
+  pi = 3.1416
+  altura = 1.75
+  ```
+- **Str (Strings):** Texto o cadenas de caracteres.
+  ```python
+  nombre = "Guido van Rossum"
+  numero_como_texto = "100"  # Es texto, no número matemático.
+  ```
+- **Bool (Booleanos):** Representan valores de verdad lógica: `True` o `False`.
+  ```python
+  es_de_dia = True
+  esta_lloviendo = False
+  ```
+
+### 3. Conceptos Importantes
+
+- **Tipado Dinámico:** No necesitas declarar el tipo de dato. Python lo deduce y puedes cambiarlo.
+  ```python
+  caja = 10        # Int
+  caja = "Manzana" # Ahora es Str
+  ```
+- **Función `type()`:** Sirve para saber qué tipo de dato es una variable.
+  ```python
+  x = 9.5
+  print(type(x))  # Salida: <class 'float'>
+  ```
+
+---
 
 ## 📝 Retos y Ejercicios (`/Ejercicios`)
 
@@ -24,7 +72,7 @@ He completado los siguientes 10 retos fundamentales:
 
 ## 💡 Conceptos Clave Aprendidos
 
-- **Snake Case**: Convención para nombrar variables.
+- **Snake Case**: Convención para nombrar variables (`mi_variable`).
 - **Tipado Dinámico**: Python asigna tipos en tiempo de ejecución.
-- **Operador `**`**: Para potencias (no confundir con `^`).
+- **Operador `**`\*\*: Para potencias.
 - **Casting**: `int()`, `float()`, `str()` para convertir datos.

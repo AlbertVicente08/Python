@@ -2,16 +2,52 @@
 
 Este módulo cubre los conceptos esenciales para dirigir la ejecución de un programa en Python mediante condicionales y bucles.
 
-## 📝 Conceptos Clave
+---
 
-- **Condicionales**: Uso de `if`, `elif` y `else` para la toma de decisiones.
-- **Bucle `for`**: Iteración sobre secuencias (listas, rangos, etc.).
-- **Bucle `while`**: Ejecución repetitiva basada en una condición lógica.
-- **Control de Bucles**: Uso de `break` y `continue`.
+## 📚 Teoría
 
-## 🚀 Ejercicios Resueltos
+### 1. Condicionales (`if`, `elif`, `else`)
 
-He completado una serie de 10 ejercicios prácticos para consolidar estos conocimientos:
+Es la capacidad del programa para tomar decisiones. El código elige un camino dependiendo de si una condición es `True` o `False`.
+
+```python
+edad = 20
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+```
+
+### 2. Bucle `for` (Para cada...)
+
+Se usa cuando sabemos cuántas veces queremos repetir algo o para recorrer una colección (listas, rangos, etc.).
+
+```python
+nombres = ["Ana", "Beto"]
+for persona in nombres:
+    print(f"Hola, {persona}")
+
+# Repetir 5 veces
+for i in range(5):
+    print(i)
+```
+
+### 3. Bucle `while` (Mientras...)
+
+Se usa cuando **no sabemos** cuántas veces se repetirá el código, pero sí la condición que debe cumplirse para seguir.
+
+```python
+bateria = 5
+while bateria > 0:
+    print(f"Batería: {bateria}%")
+    bateria -= 1
+```
+
+---
+
+## 🚀 Ejercicios Resueltos (`/Ejercicios`)
+
+He completado una serie de 10 ejercicios prácticos:
 
 1.  **[Ex1.py](./Ejercicios/Ex1.py)**: El Portero (Condicional simple).
 2.  **[Ex2.py](./Ejercicios/Ex2.py)**: Contando Ovejas (Bucle `for` y `range`).
@@ -24,6 +60,8 @@ He completado una serie de 10 ejercicios prácticos para consolidar estos conoci
 9.  **[Ex9.py](./Ejercicios/Ex9.py)**: Tabla de Multiplicar (Formateo de strings).
 10. **[Ex10.py](./Ejercicios/Ex10.py)**: FizzBuzz (Lógica compleja y divisibilidad).
 
----
+## 💡 Conceptos Clave
 
-_Módulo completado con éxito. ¡A por lo siguiente!_
+- **Indentación**: Obligatoria en Python para definir bloques de código.
+- **`range()`**: Genera una secuencia de números.
+- **Control de Bucles**: `break` (salir) y `continue` (saltar a la siguiente iteración).

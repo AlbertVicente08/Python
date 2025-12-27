@@ -20,6 +20,10 @@ Condicionales `if/else`, bucles `for` y `while`, y lógica de control de program
 
 Creación de bloques de código reutilizables, parámetros, retornos y modularidad.
 
+### 5. ✅ [Manejo de Errores](./Manejo_de_Errores/)
+
+Tratamiento de excepciones con bloques `try`, `except`, `else` y `finally`.
+
 ---
 
 _Este repositorio se actualiza a medida que avanzo en mi aprendizaje._
