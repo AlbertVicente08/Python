@@ -1,28 +1,18 @@
 # Aprendizaje de Python 🐍
 
-Repositorio general de aprendizaje de Python, organizado por módulos temáticos.
+Repositorio general de aprendizaje de Python, organizado por niveles y módulos temáticos.
 
-## 📁 Módulos del Curso
+## � Organización del Repositorio
 
-### 1. ✅ [Variables y Tipos de Datos](./Variables_y_tipos_de_datos/)
+### 🏗️ [La Base](./La_Base/)
 
-Conceptos básicos sobre cómo Python maneja la información, variables y operaciones fundamentales.
+Contiene los fundamentos esenciales del lenguaje:
 
-### 2. ✅ [Las 4 Estructuras Fundamentales](./Las_4_Estrucutras_fundamentales/)
-
-Dominio de Listas, Tuplas, Conjuntos (Sets) y Diccionarios.
-
-### 3. ✅ [Control de Flujo](./Control_de_Flujo/)
-
-Condicionales `if/else`, bucles `for` y `while`, y lógica de control de programas.
-
-### 4. ✅ [Funciones](./Funciones/)
-
-Creación de bloques de código reutilizables, parámetros, retornos y modularidad.
-
-### 5. ✅ [Manejo de Errores](./Manejo_de_Errores/)
-
-Tratamiento de excepciones con bloques `try`, `except`, `else` y `finally`.
+- Variables y Tipos de Datos
+- Estructuras de Datos (Listas, Tuplas, etc.)
+- Control de Flujo
+- Funciones
+- Manejo de Errores
 
 ---
 
